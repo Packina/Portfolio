@@ -1,5 +1,6 @@
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
+import LinkedinIcon from "../../public/linkedin-icon.svg";
 
 const Home = () => {
   return (
@@ -123,7 +124,7 @@ const Home = () => {
           </svg>
         </div>
         <div className="absolute bottom-20 right-2">
-        <a href="https://www.linkedin.com/in/kanjana-kannarest-4928101b0/"><img src="../../public/linkedin-icon.svg" className="w-20"></img></a>
+        <a href="https://www.linkedin.com/in/kanjana-kannarest-4928101b0/"><img src={LinkedinIcon } className="w-20"></img></a>
         </div>
       </div>
 
