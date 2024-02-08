@@ -2,9 +2,6 @@ import ActiveSlider from "./ActiveSlider";
 
 
 const Project = () => {
-
-  
-
   return (
     <>
       <section className="projects h-screen pt-5 relative">

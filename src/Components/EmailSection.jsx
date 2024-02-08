@@ -1,9 +1,9 @@
 "use client";
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import GithubIcon from "../../public/github-icon.svg";
 import LinkedinIcon from "../../public/linkedin-icon.svg";
-import Navbar from "./Navbar";
+
 
 
 const EmailSection = () => {
@@ -33,8 +33,8 @@ return (
           try my best to get back to you!
         </p>
         <div className="flex ">
-          <a href="https://github.com/Packina?tab=repositories"><img src="../../public/github-icon.svg" className="w-20"></img></a>
-          <a href="https://www.linkedin.com/in/kanjana-kannarest-4928101b0/"><img src="../../public/linkedin-icon.svg" className="w-20"></img></a>
+          <a href="https://github.com/Packina?tab=repositories"><img src={GithubIcon} className="w-20"></img></a>
+          <a href="https://www.linkedin.com/in/kanjana-kannarest-4928101b0/"><img src={LinkedinIcon }className="w-20"></img></a>
         </div>
       </div>
       <div>

@@ -1,3 +1,5 @@
+import aboutMePic from "../../public/MyPic.jpg";
+
 const AboutMe = () => {
   return (
     <>
@@ -21,8 +23,8 @@ const AboutMe = () => {
         </div>
         <div className="flex items-center justify-center mt-5 lg:mx-20">
         <img
-        className="lg:w-[300px]"
-          src="../../public/MyPic.jpg"
+          className="lg:w-[300px]"
+          src={aboutMePic}
           alt="Profile picture"
           width={200}
         ></img>

@@ -1,3 +1,4 @@
+import experiencePic from '../../public/experiencePic.jpg';
 const Experience = () => (
   <>
 
@@ -11,7 +12,7 @@ const Experience = () => (
     <div className="flex flex-col lg:flex-row lg:px-20">
       <div className="mx-10">
         <img
-          src="../../public/experiencePic.jpg"
+          src={experiencePic }
           alt="Working-exp-pic"
           className="display:hidden w-[150px] lg:w-[300px]"
         ></img>

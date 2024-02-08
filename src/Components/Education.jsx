@@ -1,8 +1,5 @@
-import React from "react";
 import SWU from "../../public/SWU.svg.png";
 import Generation from "../../public/Generation.png";
-import Navbar from "./Navbar";
-
 
 const Education = () => {
   return (
@@ -16,7 +13,7 @@ const Education = () => {
         </div>
         <div className="flex flex-col items-center ">
           <img
-            src="../../public/SWU.svg.png"
+            src={SWU}
             alt="SWU-logo"
             className="w-40 lg:w-60"
           ></img>
@@ -40,7 +37,7 @@ const Education = () => {
         </div>
         <div className="flex flex-col items-center">
           <img
-            src="../../public/Generation.png"
+            src={Generation}
             alt="generation-logo"
             className="w-40 lg:w-60"
           ></img>
