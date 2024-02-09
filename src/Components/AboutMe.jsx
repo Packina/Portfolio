@@ -4,9 +4,9 @@ const AboutMe = () => {
   return (
     <>
     <section className="introduction h-screen bg-[#FDF5F5] relative z-10">
-      <div className="flex flex-col lg:flex-row pt-10 lg:pt-20 ">
-        <div className="aboutme-content mx-8 flex-1 lg:mx-20">
-          <p className="lg:text-xl font-poppins text-lg lg:mb-5 " >Hey there,</p>
+      <div className="flex flex-col lg:flex-row pt-10 lg:pt-20">
+        <div className="aboutme-content mx-8 flex-1 lg:mx-20 animate-fade-up">
+          <p className="lg:text-xl font-poppins text-lg lg:mb-5">Hey there,</p>
           <p className="lg:text-7xl text-5xl font-anton ">I’m Kanjana</p>
           <p className="lg:text-7xl text-5xl font-anton lg:mb-5">Kannarest</p>
           <p className="lg:text-2xl font-poppins text-pink-500 text-lg">

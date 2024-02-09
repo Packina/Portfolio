@@ -35,7 +35,7 @@ import {
     {
       icon: RxReader,
       title: "Drum Kit",
-      content: "an interactive and engaging experience designed to simulate playing a virtual drum kit. Players typically have access to a variety of digital drum pads representing different parts of a drum kit, including kick drum, snare drum, hi-hat, toms, cymbals, and more create by JavaScript. ",
+      content: "an interactive and engaging experience designed to simulate playing a virtual drum kit. create by JavaScript. ",
       backgroundImage: drumKid ,
     },
     {

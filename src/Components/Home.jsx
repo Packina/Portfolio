@@ -1,5 +1,4 @@
 import { TypeAnimation } from 'react-type-animation';
-import { motion } from "framer-motion";
 import LinkedinIcon from "../../public/linkedin-icon.svg";
 
 const Home = () => {
@@ -80,24 +79,12 @@ const Home = () => {
           </svg>
         </div>
         <div className="absolute bottom-60 left-10">
-          <motion.svg
+          <svg
             xmlns="http://www.w3.org/2000/svg"
             width="130"
             height="122"
             viewBox="0 0 130 122"
             fill="none"
-            // initial={{ opacity: 0, scale: 0.5 }}
-            // animate={{ opacity: 1, scale: 1 }}
-            // transition={{
-            //   duration: 0.3,
-            //   ease: [0, 0.71, 0.2, 1.01],
-            //   scale: {
-            //     type: "spring",
-            //     damping: 5,
-            //     stiffness: 100,
-            //     restDelta: 0.001
-            //   }
-            // }}
           >
             <ellipse
               cx="64.5255"
@@ -106,7 +93,7 @@ const Home = () => {
               ry="60.6394"
               fill="#BCDF64"
             />
-          </motion.svg>
+          </svg>
         </div>
         <div className="absolute bottom-40 ">
           <svg
