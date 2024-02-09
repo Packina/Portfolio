@@ -1,5 +1,5 @@
 import aboutMePic from "../../public/MyPic.jpg";
-
+import CV from "../../public/CV.pdf";
 const AboutMe = () => {
   return (
     <>
@@ -35,7 +35,7 @@ const AboutMe = () => {
       <a href="https://www.linkedin.com/in/kanjana-kannarest-4928101b0/"className="btn btn-active font-dela-gothic-one bg-pink-500 text-xs lg:text-base text-white hover:bg-pink-300 lg:mx-5 my-2">LET'S GET IN TUCH</a>
       </div>
       <div>
-      <a href="../../public/CV.pdf" className="download btn btn-active font-dela-gothic-one bg-[#BCDF64] text-xs lg:text-base text-white hover:bg-pink-300 transition ">DOWNLOAD CV</a>
+      <a href={CV} className="download btn btn-active font-dela-gothic-one bg-[#BCDF64] text-xs lg:text-base text-white hover:bg-pink-300 transition ">DOWNLOAD CV</a>
       </div>
       </div>
 

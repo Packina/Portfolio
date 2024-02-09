@@ -5,7 +5,7 @@ const Navbar = () => {
     items: [
       {
         type: "dropdown",
-        label: "About Me",
+        label: "ABOUT ME",
         to: "",
         childElements: [
           {
