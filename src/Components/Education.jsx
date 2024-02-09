@@ -4,7 +4,7 @@ import Generation from "../../public/Generation.png";
 const Education = () => {
   return (
     <>
-    <div className="education text-center bg-rose-200 py-20 px-10 flex flex-col lg:flex-row h-screen">
+    <div className="education text-center py-20 px-10 flex flex-col lg:flex-row h-screen">
       <div className="left-sde lg:flex-1">
         <div>
           <p className="text-5xl lg:text-6xl font-anton pb-10  lg:text">

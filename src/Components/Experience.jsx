@@ -2,8 +2,8 @@ import experiencePic from '../../public/experiencePic.jpg';
 const Experience = () => (
   <>
 
-  <section className="experience bg-[#FDF5F5] h-screen relative ">
-    <p className="text-5xl lg:text-6xl font-anton p-10 lg:pt-20 lg:text ">
+  <section className="experience h-screen relative ">
+    <p className="text-5xl lg:text-6xl font-anton p-10 lg:text lg:pt-0">
       WORKING
       <br />
       EXPERIENCE
@@ -45,7 +45,7 @@ const Experience = () => (
       </div>
     
     <div>
-      <p className="lg:text-lg font-poppins text-xs p-10  lg:py-10 text-center">
+      <p className="lg:text-lg font-poppins text-xs p-10  lg:py-10 text-center px-20">
         Lead recruitment processes, source top talent creatively, and manage
         candidate pipelines with outreach techniques. Conduct pre-screening
         calls, coordinate technical tests, and assess applicants for skills

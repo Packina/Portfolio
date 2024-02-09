@@ -8,32 +8,35 @@ import {
   } from "react-icons/rx";
   
   import ExamplePic from "../../public/Wallpaper.png";
-  
+  import Tindog from "../../public/TinDog.png";
+  import MoveIt from "../../public/MoveIt.png";
+  import diceGame from "../../public/diceGame.png";
+  import drumKid from "../../public/drumKid.png";
   
   export const ServiceData = [
     {
       icon: RxCrop,
-      title: "Project Name:1",
-      content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
-      backgroundImage: ExamplePic,
+      title: "TinDog Project",
+      content: "The dating web application for your lovely pet created by Bootstrap",
+      backgroundImage: Tindog,
     },
     {
       icon: RxPencil2,
-      title: "Project Name:2",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      backgroundImage: ExamplePic,
+      title: "Move It Project",
+      content: "The moving service web application to make your day easy created by Bootstrap ",
+      backgroundImage: MoveIt,
     },
     {
       icon: RxDesktop,
-      title: "Project Name:3",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      backgroundImage: ExamplePic,
+      title: "Dice Game",
+      content: "The Dice Game is a classic and versatile game that can be played in numerous variations, ranging from simple to more complex ruleset create by JavaScript",
+      backgroundImage: diceGame,
     },
     {
       icon: RxReader,
-      title: "Project Name:4",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      backgroundImage: ExamplePic,
+      title: "Drum Kit",
+      content: "an interactive and engaging experience designed to simulate playing a virtual drum kit. Players typically have access to a variety of digital drum pads representing different parts of a drum kit, including kick drum, snare drum, hi-hat, toms, cymbals, and more create by JavaScript. ",
+      backgroundImage: drumKid ,
     },
     {
       icon: RxAccessibility,
